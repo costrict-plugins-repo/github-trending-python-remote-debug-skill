@@ -1,0 +1,12 @@
+{
+  "name": "python-remote-debug-skill",
+  "description": "Python 3.14+ remote debugging with sys.remote_exec() for inspecting running processes, including gevent/Celery workers",
+  "version": "1.0.1",
+  "author": {
+    "name": "promptromp"
+  },
+  "homepage": "https://github.com/promptromp/python-remote-debug-skill",
+  "repository": "https://github.com/promptromp/python-remote-debug-skill",
+  "license": "MIT",
+  "keywords": ["python", "debugging", "remote", "gevent", "celery", "greenlet", "sys.remote_exec"]
+}

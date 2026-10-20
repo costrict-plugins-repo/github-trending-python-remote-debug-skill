@@ -1,0 +1,17 @@
+{
+  "name": "python-remote-debug-skill",
+  "owner": {
+    "name": "promptromp"
+  },
+  "metadata": {
+    "description": "Python 3.14+ remote debugging skill for Claude Code",
+    "version": "1.0.1"
+  },
+  "plugins": [
+    {
+      "name": "python-remote-debug-skill",
+      "source": "./",
+      "description": "Debug running Python processes using sys.remote_exec(), including gevent/Celery workers"
+    }
+  ]
+}

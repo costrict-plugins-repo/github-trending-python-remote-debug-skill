@@ -1,0 +1,37 @@
+[tool.mypy]
+ignore_missing_imports = true
+implicit_optional = true
+python_version = "3.14"
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+lines-after-imports = 2
+no-lines-before = ["standard-library"]
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # Pylint (Convention)
+    "PLC",
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 15
